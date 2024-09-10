@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14783841429,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Flipkart Url",
+            "match": {
+              "location": "Login.launchFlipkart()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-10T12:03:22.730Z",
+        "line": 8,
+        "name": "To check successful login on Flipkart website",
+        "description": "",
+        "id": "verify-flipkart-login;to-check-successful-login-on-flipkart-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4030241694,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User login with Registered credentials",
+            "match": {
+              "location": "Login.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12196685787,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify successful login",
+            "match": {
+              "location": "Login.verifyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Flipkart Login",
+    "description": "",
+    "id": "verify-flipkart-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

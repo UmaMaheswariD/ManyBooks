@@ -1,0 +1,11 @@
+{
+  "LoginCredentials": {
+    "email": "telat70462@coloruz.com",
+    "password": "Automation123"
+  },
+  "profileMenu": {
+    "1": "View Profile",
+    "2": "Edit Account",
+    "3": "Log out"
+  }
+}
